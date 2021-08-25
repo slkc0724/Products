@@ -4,5 +4,6 @@ while True:
 	if name == 'finish':
 		break
 	price = input('The price of the product: ')
+	# p = [name, price]
 	products.append([name, price])
 print(products)	
