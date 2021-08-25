@@ -4,6 +4,7 @@ while True:
 	if name == 'finish':
 		break
 	price = input('The price of the product: ')
-	# p = [name, price]
 	products.append([name, price])
 print(products)	
+for p in products:
+	print('The price of', p[0], 'is', p[1])
